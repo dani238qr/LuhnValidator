@@ -12,8 +12,6 @@ int main(){
 
     luhn_algh(num);
 
-
-
     return 0;
 }
 
@@ -33,7 +31,7 @@ void luhn_algh(char num[]){
             }
         }
         sum+=n;
-        
+      
     }
 
     if(sum % 10==0){
@@ -41,6 +39,6 @@ void luhn_algh(char num[]){
     } 
     else{
         printf("card or IMEI number is invalid.\n");
-    }
-    
+    } 
 }
+
